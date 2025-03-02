@@ -1,0 +1,1 @@
+curl -X GET -H "Accept: application/json" 'http://localhost:8080/api/ledger/transaction-details/0e1b8c50-d1d4-4ed4-b7b8-bc1acdf2db1d'

@@ -1,0 +1,7 @@
+curl -X PUT -H "Content-type: application/json" -d
+'{
+  "submitterFirstName": "Mia",
+  "submitterLastName": "Taylor",
+  "amount": 0.00
+}'
+'http://localhost:8080/api/ledger/withdrawal'

@@ -1,0 +1,7 @@
+curl -X PUT -H "Content-type: application/json" -d
+'{
+  "submitterFirstName": "Mia",
+  "submitterLastName": "Taylor",
+  "amount": -55.55
+}'
+'http://localhost:8080/api/ledger/deposit'
